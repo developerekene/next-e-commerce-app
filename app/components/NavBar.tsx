@@ -78,7 +78,7 @@ const NavBar: React.FunctionComponent = () => {
             </div>
             <div className="j-content">
               <Image src={likeNav} alt="likes" className="cursor" />
-              <span className="numb">{cart}</span>
+              <span className="numb">{likes}</span>
             </div>
           </div>
         </div>
