@@ -1,4 +1,3 @@
-
 /* Importing Font Family */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat");
 
@@ -325,6 +324,15 @@
   padding-bottom: 15px;
 }
 
+.button-main:hover {
+  cursor: pointer;
+  background-color: #23a6f0 !important;
+}
+
+.b-text:hover {
+  color: #ffffff !important;
+}
+
 .b-text {
   font-family: "Montserrat";
   font-size: 14px;
@@ -457,15 +465,16 @@
   text-align: center;
 }
 
-.container-f{
+.container-f {
   width: 183px;
   outline: none;
   cursor: pointer;
   border: none;
   background-color: #ffffff;
+  text-decoration: none;
 }
 
-.desc-data{
+.desc-data {
   color: var(--text-color);
   font-family: "Montserrat";
   font-size: 14px;
@@ -475,6 +484,23 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.dper-data {
+  color: var(--success-text-color);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.price-data {
+  color: var(--second-text-color);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
 .f-home {
   box-shadow: 0px 2px 2px 0px;
   width: 348px;

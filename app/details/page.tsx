@@ -1,9 +1,18 @@
-import React from 'react'
+"use client";
+
+import React from "react";
+import { useSearchParams } from "next/navigation";
+// import { useRouter } from "next/router";
 
 const DetailsPage = () => {
-  return (
-    <div>Details</div>
-  )
-}
+  const searchParams = useSearchParams();
+  // console.log(searchParams.get('title'));
 
-export default DetailsPage
+  return (
+    <div>
+      <span>{searchParams.get('title')}</span>
+    </div>
+  );
+};
+
+export default DetailsPage;
